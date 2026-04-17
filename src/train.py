@@ -16,7 +16,11 @@ def train_model(data_path):
     model = RandomForestRegressor(n_estimators=150, random_state=42)
     model.fit(X_train, y_train)
 
+    # ✅ Save model
     joblib.dump(model, 'models/model.pkl')
+
+    # ✅ ADD THIS LINE (IMPORTANT)
+    joblib.dump(X.columns.tolist(), 'models/features.pkl')
 
     return model
 
