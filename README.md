@@ -9,3 +9,8 @@ This project predicts house prices using machine learning models like Linear Reg
 - Streamlit
 
 Project is under development 🚧
+
+## 🚀 Live App
+https://house-price-prediction-ml-v4iqhjtzjjafa6xctus6oj.streamlit.app/
+
+
