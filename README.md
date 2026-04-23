@@ -120,4 +120,4 @@ Give it a star on GitHub ⭐
 
 ## 📸 App Preview
 
-![App Screenshot](images/app.png)
+(images/app.png)
